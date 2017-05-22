@@ -1,2 +1,13 @@
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# Sass #
+######################
 .sass-cache/
 *.css.map
