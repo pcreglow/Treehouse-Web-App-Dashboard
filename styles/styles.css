@@ -5,6 +5,27 @@
   margin: 0;
 }
 
+/*** HEADER ***/
+
+header {
+  background: #7478BA;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 200;
+  margin: 0;
+  padding: 1em 0.5em;
+}
+
+header h1 span {
+  font-weight: 600;
+  padding: 0 0.1em;
+}
+
+/*** NAVIGATION ***/
+
 nav {
   background: #000;
   width: 60px;
