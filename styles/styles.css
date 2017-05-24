@@ -1,4 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: #000;
+  width: 60px;
 }
