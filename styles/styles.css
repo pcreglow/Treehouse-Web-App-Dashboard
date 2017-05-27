@@ -8,6 +8,7 @@
 
 header {
   background: #7478BA;
+  width: 100%;
   height: 75px;
 }
 
@@ -26,41 +27,53 @@ header h1 span {
   font-weight: 600;
 }
 
-
-.header-notification {
+.header-identification {
 position: absolute;
 top: 0;
 right: 0;
-width: 300px;
+width: 250px;
 height: 75px;
 }
 
-.header-notification a {
-  text-decoration: none;
-  position: relative;
-  display: inline;
+.header-identification div,
+.header-notification img,
+.header-notification p,
+.header-profile img,
+.header-profile p {
+  display: inline-block;
 }
 
-.header-notification a img {
+.header-notification img {
   width: 25px;
   height: 25px;
-  margin: 25px;
+  margin: 25px 15px;
 }
 
-.header-notification #profile-image {
+.header-notification p {
+  border-left: 0.5px solid #4D4D6F;
+  height: 45px;
+  float: right;
+  margin: 15px 5px;
+}
+
+.header-profile img {
+  width: 35px;
+  height: 35px;
+  margin: 20px 10px;
   border-radius: 50%;
 }
 
-.header-notification a p {
+.header-profile p {
   color: #fff;
   font-size: 16px;
+  font-weight: 300;
   float: right;
-  padding: 25px 10px;
+  margin: 25px 5px;
 }
 
 /*** NAVIGATION ***/
 
 nav {
-  background: #000;
+  background: #4D4D6F;
   width: 75px;
 }
