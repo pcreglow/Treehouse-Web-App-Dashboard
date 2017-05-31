@@ -75,6 +75,13 @@ header h1 span {
 nav {
     background: #4D4D6F;
     width: 75px;
+    height: 1200px;
+}
+
+nav img {
+  margin: 30px 20px 15px;
+  width: 35px;
+  height: 35px;
 }
 
 
