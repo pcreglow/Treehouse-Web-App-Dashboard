@@ -69,6 +69,11 @@ header h1 span {
     margin: 25px 5px;
 }
 
+/*** DASHBOARD ***/
+
+#dashboard {
+  width: 100%;
+}
 
 /*** NAVIGATION ***/
 
@@ -76,12 +81,32 @@ nav {
     background: #4D4D6F;
     width: 75px;
     height: 1200px;
+    display: inline-block;
+    float: left;
 }
 
 nav img {
   margin: 30px 20px 15px;
   width: 35px;
   height: 35px;
+}
+
+/*** MAIN ***/
+
+main {
+  display: inline-block;
+  width: 90%;
+}
+
+/* Dashboard Search */
+
+.dashboard-search h1,
+.dashboard-search .search-bar {
+  display: inline-block;
+}
+
+.dashboard-search h1 {
+  color: #000;
 }
 
 
