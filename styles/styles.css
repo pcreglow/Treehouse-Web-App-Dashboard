@@ -77,3 +77,16 @@ nav {
   background: #4D4D6F;
   width: 75px;
 }
+
+/*** TABLET - 768px ***/
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+/*** DESKTOP - 1024px ***/
+
+@media screen and (min-width: 1024px) {
+  
+}
