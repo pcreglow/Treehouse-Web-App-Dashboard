@@ -155,4 +155,19 @@ main {
 
 /*** DESKTOP - 1024px ***/
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+
+  nav {
+    width: 8%;
+    min-width: 75px;
+    max-width: 100px;
+    display: block;
+    float: left;
+  }
+
+  main {
+    width: 92%;
+    float: right;
+    display: block;
+  }
+}
