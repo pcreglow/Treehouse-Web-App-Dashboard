@@ -110,7 +110,7 @@ main {
 }
 
 .dashboard-search h1 {
-  color: #555;
+  color: #8E8E8E;
   font-weight: 200;
   font-size: 20px;
   padding: 5px 15px;
@@ -120,7 +120,7 @@ main {
 
 .dashboard-search .search-bar {
   width: 65%;
-  background: #9A9A9A;
+  background: #FBFBFB;
   float: right;
 }
 
@@ -130,7 +130,7 @@ main {
   padding: 10px 0;
   width: 85%;
   border-radius: 4px;
-  border: 1px solid #555;
+  border: 1px solid #B2B2B2;
   text-indent: 10px;
   font-size: 14px;
 }
