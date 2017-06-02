@@ -135,6 +135,11 @@ main {
   font-size: 14px;
 }
 
+/* Chart - Traffic */
+
+.chart-test {
+  padding: 10px 15px;
+}
 
 
 /*** TABLET - 768px ***/
@@ -159,6 +164,7 @@ main {
 
   nav {
     width: 8%;
+    height: 1200px;
     min-width: 75px;
     max-width: 100px;
     display: block;
