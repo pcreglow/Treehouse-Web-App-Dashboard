@@ -137,8 +137,8 @@ main {
 
 /* Chart - Traffic */
 
-.chart-test {
-  padding: 10px 15px;
+.traffic-chart {
+  padding: 10px 25px;
 }
 
 
@@ -163,7 +163,7 @@ main {
 @media screen and (min-width: 1024px) {
 
   nav {
-    width: 8%;
+    width: 7.5%;
     height: 1200px;
     min-width: 75px;
     max-width: 100px;
@@ -172,8 +172,8 @@ main {
   }
 
   main {
-    width: 92%;
-    float: right;
+    width: 92.5%;
     display: block;
+    float: right;
   }
 }
