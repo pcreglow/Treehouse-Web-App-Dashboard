@@ -109,7 +109,8 @@ main {
   display: inline-block;
 }
 
-.dashboard-search h1 {
+.dashboard-search h1,
+.traffic-chart h1 {
   color: #8E8E8E;
   font-weight: 200;
   font-size: 20px;
@@ -137,7 +138,7 @@ main {
 
 /* Chart - Traffic */
 
-.traffic-chart {
+.traffic-chart canvas {
   padding: 10px 25px;
 }
 

@@ -1,4 +1,4 @@
-// TEST Chart.js //
+// Traffic - Chart.js //
 
 var ctx = document.getElementById("traffic").getContext('2d');
 var traffic = new Chart(ctx, {
