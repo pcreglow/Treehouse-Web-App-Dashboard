@@ -110,7 +110,9 @@ main {
 }
 
 .dashboard-search h1,
-.traffic-chart h1 {
+.traffic-chart h1,
+.daily-traffic-chart h1,
+.mobile-users-chart h1 {
   color: #8E8E8E;
   font-weight: 200;
   font-size: 20px;
