@@ -140,7 +140,8 @@ main {
 
 /* Chart - Traffic */
 
-.traffic-chart canvas {
+.traffic-chart canvas,
+.daily-traffic-chart canvas {
   padding: 10px 25px;
 }
 
