@@ -24,7 +24,6 @@ header h1 {
     font-weight: 300;
     margin: 0;
     padding: 25px 10px;
-    position: relativete;
     top: 0;
     left: 0;
     float: left;
@@ -35,7 +34,6 @@ header h1 span {
 }
 
 .header-identification {
-    position: relative;
     float: right;
     top: 0;
     right: 0;
@@ -120,7 +118,8 @@ main {
 .dashboard-search h1,
 .traffic-chart h1,
 .daily-traffic-chart h1,
-.mobile-users-chart h1 {
+.mobile-users-chart h1,
+.social-media h1 {
   color: #8E8E8E;
   font-weight: 200;
   font-size: 20px;
@@ -134,7 +133,8 @@ main {
 
 .traffic-chart h1,
 .daily-traffic-chart h1,
-.mobile-users-chart h1 {
+.mobile-users-chart h1,
+.social-media h1 {
   width: 75%;
 }
 
@@ -161,6 +161,12 @@ main {
 .daily-traffic-chart canvas,
 .mobile-users-chart canvas {
   padding: 10px 25px;
+}
+
+/* Social Media */
+
+.social-media {
+
 }
 
 
@@ -198,7 +204,13 @@ main {
     max-width: 1250px;
     display: block;
     float: left;
-    position: relative;
+  }
+
+  .charts-container {
+    border-top: 2px solid #8E8E8E;
+    border-bottom: 2px solid #8E8E8E;
+    margin-top: 25px;
+    float: left;
   }
 
   .daily-traffic-chart,
@@ -215,16 +227,8 @@ main {
     border-left: 2px solid #8E8E8E;
   }
 
-  .charts-container {
-    position: absolute;
-    border-top: 2px solid #8E8E8E;
-    border-bottom: 2px solid #8E8E8E;
-    margin: 25px 0;
-  }
-
   .charts-container .daily-traffic-chart canvas,
   .charts-container .mobile-users-chart canvas {
-    position: relative;
     max-height: 400px;
   }
 
@@ -235,5 +239,9 @@ main {
   .charts-container .mobile-users-chart canvas {
     max-width: 400px;
     margin: 0 auto;
+  }
+
+  .social-media {
+   clear: both;
   }
 }
