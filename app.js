@@ -23,7 +23,7 @@ var traffic = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    beginAtZero: true
                 }
             }]
         }
@@ -65,7 +65,7 @@ var dailyTraffic = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    beginAtZero: true
                 }
             }]
         }
@@ -96,8 +96,16 @@ var mobileUsers = new Chart(ctx, {
         }]
     },
     options: {
-      legend: {
-        position: 'right'
-      }
+        legend: {
+            position: 'right'
+        },
+        layout: {
+            padding: {
+                left: 25,
+                right: 25,
+                top: 50,
+                bottom: 50
+            }
+        }
     }
 });
