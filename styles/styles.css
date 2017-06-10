@@ -118,7 +118,7 @@ main {
   font-size: 20px;
   padding: 5px 15px;
   float: left;
-  width: 35%;
+  width: 75%;
 }
 
 .dashboard-search .search-bar {
@@ -169,7 +169,7 @@ main {
 
   nav {
     width: 7.5%;
-    height: 1200px;
+    height: 1800px;
     min-width: 75px;
     max-width: 100px;
     display: block;
@@ -180,5 +180,28 @@ main {
     width: 92.5%;
     display: block;
     float: right;
+  }
+
+  .daily-traffic-chart,
+  .mobile-users-chart {
+    width: 45%;
+  }
+
+  .daily-traffic-chart {
+    float: left;
+  }
+
+  .mobile-users-chart {
+    float: right;
+  }
+
+  .charts-container .daily-traffic-chart canvas,
+  .charts-container .mobile-users-chart canvas {
+    position: relative;
+    max-height: 400px;
+  }
+
+  .charts-container .mobile-users-chart canvas {
+    max-width: 400px;
   }
 }

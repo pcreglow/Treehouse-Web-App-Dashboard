@@ -101,10 +101,10 @@ var mobileUsers = new Chart(ctx, {
         },
         layout: {
             padding: {
-                left: 25,
-                right: 25,
-                top: 50,
-                bottom: 50
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 0
             }
         }
     }
