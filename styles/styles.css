@@ -220,10 +220,14 @@ main {
   .charts-container .mobile-users-chart canvas {
     position: relative;
     max-height: 400px;
-    margin: 0 auto;
+  }
+
+  .charts-container .daily-traffic-chart canvas {
+    margin: 100px auto 0;
   }
 
   .charts-container .mobile-users-chart canvas {
     max-width: 400px;
+    margin: 0 auto;
   }
 }
