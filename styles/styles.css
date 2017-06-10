@@ -141,7 +141,8 @@ main {
 /* Chart - Traffic */
 
 .traffic-chart canvas,
-.daily-traffic-chart canvas {
+.daily-traffic-chart canvas,
+.mobile-users-chart canvas {
   padding: 10px 25px;
 }
 

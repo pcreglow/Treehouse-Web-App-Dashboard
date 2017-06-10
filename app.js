@@ -33,7 +33,7 @@ var traffic = new Chart(ctx, {
 // Daily Traffic - Chart.js //
 
 var ctx = document.getElementById("daily-traffic").getContext('2d');
-var traffic = new Chart(ctx, {
+var dailyTraffic = new Chart(ctx, {
     type: 'bar',
     data: {
         labels: ["Su", "M", "Tu", "W", "Th", "F", "Sa"],
@@ -73,3 +73,31 @@ var traffic = new Chart(ctx, {
 });
 
 // Mobile Users - Chart.js //
+
+var ctx = document.getElementById("mobile-users").getContext('2d');
+var mobileUsers = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ["Phones", "Tablets", "Desktop"],
+        datasets: [{
+            label: '',
+            data: [20, 15, 65],
+            backgroundColor: [
+                'rgba(129, 176, 189, 0.6)',
+                'rgba(145, 198, 148, 0.6)',
+                'rgba(116, 120, 186, 0.6)'
+            ],
+            borderColor: [
+                'rgb(129, 176, 189)',
+                'rgb(145, 198, 148)',
+                'rgb(116, 120, 186)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+      legend: {
+        position: 'right'
+      }
+    }
+});
