@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+#container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
 
 /*** HEADER ***/
 
@@ -20,9 +24,10 @@ header h1 {
     font-weight: 300;
     margin: 0;
     padding: 25px 10px;
-    position: absolute;
+    position: relativete;
     top: 0;
     left: 0;
+    float: left;
 }
 
 header h1 span {
@@ -75,6 +80,7 @@ header h1 span {
 
 #dashboard {
   width: 100%;
+  position: absolute;
 }
 
 /*** NAVIGATION ***/
