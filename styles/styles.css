@@ -11,6 +11,7 @@ header {
     background: #7478BA;
     width: 100%;
     height: 75px;
+    max-width: 1350px;
 }
 
 header h1 {
@@ -29,7 +30,8 @@ header h1 span {
 }
 
 .header-identification {
-    position: absolute;
+    position: relative;
+    float: right;
     top: 0;
     right: 0;
     width: 250px;
@@ -118,6 +120,15 @@ main {
   font-size: 20px;
   padding: 5px 15px;
   float: left;
+}
+
+.dashboard-search h1 {
+  width: 35%;
+}
+
+.traffic-chart h1,
+.daily-traffic-chart h1,
+.mobile-users-chart h1 {
   width: 75%;
 }
 
@@ -178,13 +189,15 @@ main {
 
   main {
     width: 92.5%;
+    max-width: 1250px;
     display: block;
-    float: right;
+    float: left;
+    position: relative;
   }
 
   .daily-traffic-chart,
   .mobile-users-chart {
-    width: 45%;
+    width: 50%;
   }
 
   .daily-traffic-chart {
@@ -193,12 +206,21 @@ main {
 
   .mobile-users-chart {
     float: right;
+    border-left: 2px solid #8E8E8E;
+  }
+
+  .charts-container {
+    position: absolute;
+    border-top: 2px solid #8E8E8E;
+    border-bottom: 2px solid #8E8E8E;
+    margin: 25px 0;
   }
 
   .charts-container .daily-traffic-chart canvas,
   .charts-container .mobile-users-chart canvas {
     position: relative;
     max-height: 400px;
+    margin: 0 auto;
   }
 
   .charts-container .mobile-users-chart canvas {
