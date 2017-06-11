@@ -248,6 +248,10 @@ main {
   width: 100%;
 }
 
+.member:last-child {
+  border-bottom: none;
+}
+
 .member {
   width: 90%;
   display: inline-block;
