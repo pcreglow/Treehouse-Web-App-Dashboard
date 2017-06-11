@@ -155,6 +155,29 @@ main {
   font-size: 14px;
 }
 
+/* Dashboard Alert */
+
+.dashboard-alert {
+  padding: 15px;
+  margin: 20px 15px;
+  color: #fff;
+  background: #7478BA;
+  border-radius: 4px;
+}
+
+.dashboard-alert h2 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.dashboard-alert h2 span {
+  font-weight: 600;
+}
+
+.dashboard-alert h2 .close-alert {
+  float: right
+}
+
 /* Chart - Traffic */
 
 .traffic-chart canvas,
