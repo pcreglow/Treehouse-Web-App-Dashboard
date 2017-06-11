@@ -173,7 +173,7 @@ main {
   background: #FBFBFB;
   border: 1px solid #B2B2B2;
   border-radius: 4px;
-  width: 30%;
+  width: 60%;
   height: auto;
   padding: 10px 15px;
   margin: 10px;
@@ -203,7 +203,7 @@ main {
 
 .social-widget p {
   color: #8E8E8E;
-  font-size: 2.5em;
+  font-size: 2em;
   padding: 2% 0;
 }
 
@@ -220,6 +220,10 @@ main {
 
     .header-profile p {
       font-size: 20px;
+    }
+
+    .social-widget {
+      width: 30%;
     }
 }
 
@@ -281,5 +285,9 @@ main {
 
   .social-media {
    clear: both;
+  }
+
+  .social-widget p {
+    font-size: 2.5em;
   }
 }
