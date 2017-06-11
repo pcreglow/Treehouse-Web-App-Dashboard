@@ -69,7 +69,8 @@ header h1 span {
     margin: 15px 5px;
 }
 
-.header-profile img {
+.header-profile img,
+.member img {
     width: 35px;
     height: 35px;
     margin: 20px 10px;
@@ -238,6 +239,12 @@ main {
     padding: 2% 0;
 }
 
+/* Membership */
+
+.member {
+  width: 100%;
+  display: inline-block;
+}
 
 /*** TABLET - 768px ***/
 
