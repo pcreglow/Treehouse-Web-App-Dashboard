@@ -165,8 +165,37 @@ main {
 
 /* Social Media */
 
-.social-media {
+.social-row {
+  text-align: center;
+}
 
+.social-widget {
+  background: #FBFBFB;
+  border: 1px solid #B2B2B2;
+  border-radius: 4px;
+  width: 30%;
+  height: auto;
+  padding: 10px 15px;
+  margin: 10px;
+  clear: both;
+  display: inline-block;
+  position: relative;
+}
+
+.social-widget img {
+  color: #fff;
+  background: #7478BA;
+  border: 1px solid #7478BA;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin: 0 15px;
+}
+
+.social-widget h4,
+.social-widget p {
+  text-align: left;
 }
 
 
