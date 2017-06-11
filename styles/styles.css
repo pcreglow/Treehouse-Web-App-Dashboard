@@ -183,19 +183,28 @@ main {
 }
 
 .social-widget img {
-  color: #fff;
+  float: left;
+  margin: 0 15px;
+  width: 25%;
+  padding: 5%;
   background: #7478BA;
   border: 1px solid #7478BA;
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  float: left;
-  margin: 0 15px;
 }
 
 .social-widget h4,
 .social-widget p {
   text-align: left;
+}
+
+.social-widget h4 {
+  color: #7478BA;
+}
+
+.social-widget p {
+  color: #8E8E8E;
+  font-size: 2.5em;
+  padding: 2% 0;
 }
 
 
