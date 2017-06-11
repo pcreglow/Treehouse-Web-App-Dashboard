@@ -175,7 +175,8 @@ main {
 }
 
 .dashboard-alert h2 .close-alert {
-  float: right
+  float: right;
+  cursor: pointer;
 }
 
 /* Chart - Traffic */
