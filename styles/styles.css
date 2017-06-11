@@ -69,8 +69,7 @@ header h1 span {
     margin: 15px 5px;
 }
 
-.header-profile img,
-.member img {
+.header-profile img {
     width: 35px;
     height: 35px;
     margin: 20px 10px;
@@ -241,9 +240,46 @@ main {
 
 /* Membership */
 
-.member {
+.membership-container {
   width: 100%;
+}
+
+.members-widget {
+  width: 100%;
+}
+
+.member {
+  width: 90%;
   display: inline-block;
+  margin: 0 5%;
+  padding: 2.5% 0;
+  border-bottom: 1px solid #B2B2B2;
+}
+
+.member-profile {
+  float: left;
+}
+
+.member-profile img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.member-info {
+  float: right;
+}
+
+.member-info .member-email {
+  font-size: 0.9em;
+  color: #7478BA;
+  line-height: 1.4;
+}
+
+.join-date {
+  float: right;
+  margin-right: 10px;
 }
 
 /*** TABLET - 768px ***/
@@ -261,6 +297,9 @@ main {
     }
     .social-widget {
         width: 30%;
+    }
+    .join-date {
+      margin-right: 20px;
     }
 }
 
