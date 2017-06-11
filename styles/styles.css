@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 1.2em;
     color: #fff;
     font-weight: 300;
     margin: 0;
@@ -68,7 +68,7 @@ header h1 span {
 
 .header-profile p {
     color: #fff;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     float: right;
     margin: 25px 5px;
@@ -122,7 +122,7 @@ main {
 .social-media h1 {
   color: #8E8E8E;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 1.2em;
   padding: 5px 15px;
   float: left;
 }
@@ -152,7 +152,7 @@ main {
   border-radius: 4px;
   border: 1px solid #B2B2B2;
   text-indent: 10px;
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 /* Dashboard Alert */
@@ -166,7 +166,7 @@ main {
 }
 
 .dashboard-alert h2 {
-  font-size: 18px;
+  font-size: 0.7em;
   font-weight: 200;
 }
 
@@ -239,11 +239,15 @@ main {
   /*** HEADER ***/
 
     header h1 {
-        font-size: 24px;
+        font-size: 1.6em;
     }
 
     .header-profile p {
-      font-size: 20px;
+      font-size: 1.2em;
+    }
+
+    .dashboard-alert h2 {
+      font-size: 1.2em;
     }
 
     .social-widget {
