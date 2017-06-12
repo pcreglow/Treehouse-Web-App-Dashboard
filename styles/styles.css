@@ -128,7 +128,7 @@ main {
     display: inline-block;
 }
 
-.dashboard-search h1, .traffic-chart h1, .daily-traffic-chart h1, .mobile-users-chart h1, .social-media h1, .members-widget h1, .activity-widget h1 {
+.dashboard-search h1, .traffic-chart h1, .daily-traffic-chart h1, .mobile-users-chart h1, .social-media h1, .members-widget h1, .activity-widget h1, .messages-widget h1, .settings-widget h1 {
     color: #8E8E8E;
     font-weight: 200;
     font-size: 1.2em;
@@ -341,13 +341,13 @@ main {
         margin-top: 25px;
         float: left;
     }
-    .daily-traffic-chart, .mobile-users-chart, .members-widget, .activity-widget {
+    .daily-traffic-chart, .mobile-users-chart, .members-widget, .activity-widget, .messages-widget, .settings-widget {
         width: 50%;
     }
-    .daily-traffic-chart, .members-widget {
+    .daily-traffic-chart, .members-widget, .messages-widget {
         float: left;
     }
-    .mobile-users-chart, .activity-widget {
+    .mobile-users-chart, .activity-widget, .settings-widget {
         float: right;
         border-left: 2px solid #8E8E8E;
     }
