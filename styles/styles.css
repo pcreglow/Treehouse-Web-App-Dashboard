@@ -275,15 +275,24 @@ main {
   float: right;
 }
 
-.member-info .member-email {
+.member-info .member-email,
+.member-info .member-activity {
   font-size: 0.9em;
-  color: #7478BA;
   line-height: 1.4;
 }
 
-.join-date {
+.member-info .member-email {
+  color: #7478BA;
+}
+
+.join-date,
+.activity-arrow {
   float: right;
   margin-right: 10px;
+}
+
+.activity-arrow {
+  font-size: 2em;
 }
 
 /*** TABLET - 768px ***/
@@ -313,7 +322,7 @@ main {
 @media screen and (min-width: 1024px) {
     nav {
         width: 7.5%;
-        height: 1800px;
+        height: 2400px;
         min-width: 75px;
         max-width: 100px;
         display: block;
