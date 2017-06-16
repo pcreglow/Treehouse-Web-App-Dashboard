@@ -304,8 +304,7 @@ main {
 .message-user {
   width: 90%;
   display: inline-block;
-  margin: 2% 5%;
-  padding: 2.5% 0;
+  margin: 0 5%;
 }
 
 .message-user input,
@@ -321,8 +320,21 @@ main {
   padding: 2.5%;
 }
 
+.message-user input,
+.message-user textarea {
+  border: 1px solid #555;
+  font-size: 16px;
+}
+
 .message-user textarea {
   padding: 2.5% 2.5% 15% 2.5%;
+}
+
+.message-user button {
+  background: #7478BA;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #7478BA;
 }
 
 /*** TABLET - 768px ***/
