@@ -297,13 +297,8 @@ main {
 
 /* Message User */
 
-.settings-container {
-  clear: both;
-}
-
 .message-user {
   width: 90%;
-  display: inline-block;
   margin: 0 5%;
 }
 
@@ -336,6 +331,10 @@ main {
   font-size: 20px;
   border: 1px solid #7478BA;
 }
+
+/* Settings */
+
+
 
 /*** TABLET - 768px ***/
 
