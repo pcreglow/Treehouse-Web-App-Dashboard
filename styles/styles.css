@@ -295,6 +295,36 @@ main {
   font-size: 2em;
 }
 
+/* Message User */
+
+.settings-container {
+  clear: both;
+}
+
+.message-user {
+  width: 90%;
+  display: inline-block;
+  margin: 2% 5%;
+  padding: 2.5% 0;
+}
+
+.message-user input,
+.message-user textarea,
+.message-user button {
+  margin: 2.5% 0;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.message-user input,
+.message-user button {
+  padding: 2.5%;
+}
+
+.message-user textarea {
+  padding: 2.5% 2.5% 15% 2.5%;
+}
+
 /*** TABLET - 768px ***/
 
 @media screen and (min-width: 768px) {
