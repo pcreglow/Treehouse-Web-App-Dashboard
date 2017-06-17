@@ -337,8 +337,8 @@ main {
 .user-settings {
   display: block;
   clear: both;
-  width: 65%;
-  margin: 0 32.5% 0 2.5%;
+  width: 95%;
+  margin: 0 2.5%;
   padding-top: 5%;
 }
 
@@ -385,6 +385,10 @@ main {
     }
     .join-date {
       margin-right: 20px;
+    }
+    .user-settings {
+      width: 45%;
+      margin: 0 52.5% 0 2.5%;
     }
 }
 
@@ -438,5 +442,9 @@ main {
     }
     .social-widget p {
         font-size: 2.5em;
+    }
+    .user-settings {
+      width: 65%;
+      margin: 0 32.5% 0 2.5%;
     }
 }
