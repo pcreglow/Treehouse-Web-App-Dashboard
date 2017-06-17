@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Web App Dashboard</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1><span>Your</span>App&trade;</h1>
+            <div class="header-identification">
+                <div class="header-notification">
+                    <img src="icons/icon-bell.svg" alt="Alert Bell Icon" />
+                    <p class="notification"></p>
+                </div>
+                <div class="header-divider">
+                    <p class="divider"></p>
+                </div>
+                <div class="header-profile">
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Member photo" />
+                    <p>John Sullivan</p>
+                </div>
+            </div>
+        </header>
+        <div id="dashboard">
+            <nav>
+                <a href="#dashboard"><img src="icons/icon-dashboard.svg" alt="Dashboard icon" /></a>
+                <a href="#membership"><img src="icons/icon-members.svg" alt="Membership icon" /></a>
+                <a href="#daily-traffic"><img src="icons/icon-visits.svg" alt="Website traffic icon" /></a>
+                <a href="#settings"><img src="icons/icon-settings.svg" alt="Settings icon" /></a>
+            </nav>
+            <main>
+                <div class="dashboard-search">
+                    <h1>Dashboard</h1>
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search">
+                    </div>
+                </div>
+
+                <div id="alert" class="dashboard-alert">
+                    <h2><span>Alert:</span> Site maintenance scheduled for Sunday 1:00 AM - 3:00 AM<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                </div>
+
+                <div class="traffic-chart">
+                    <h1>Traffic</h1>
+                    <canvas id="traffic"></canvas>
+                </div>
+
+                <div class="charts-container">
+                    <div class="daily-traffic-chart">
+                        <h1> Daily Traffic</h1>
+                        <canvas id="daily-traffic"></canvas>
+                    </div>
+                    <div class="mobile-users-chart">
+                        <h1>Mobile Users</h1>
+                        <canvas id="mobile-users"></canvas>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <h1>Social Stats</h1>
+                    <div class="social-row">
+                        <div id="twitter" class="social-widget">
+                            <img src="icons/icon-twitter.svg" alt="Twitter icon" />
+                            <h4>Twitter</h4>
+                            <p>10,345</p>
+                        </div>
+
+                        <div id="facebook" class="social-widget">
+                            <img src="icons/icon-facebook.svg" alt="Facebook icon" />
+                            <h4>Facebook</h4>
+                            <p>8,739</p>
+                        </div>
+
+                        <div id="google" class="social-widget">
+                            <img src="icons/icon-google-plus.svg" alt="Google Plus icon" />
+                            <h4>Google+</h4>
+                            <p>2,530</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="membership" class="membership-container">
+                    <div class="members-widget">
+                        <h1>New Members</h1>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/women/64.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Victoria Chambers</p>
+                                <p class="member-email">vchambers@example.com</p>
+                            </div>
+                          </div>
+                            <p class="join-date">10/15/15</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/men/21.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Dale Byrd</p>
+                                <p class="member-email">dale.byrd@example.com</p>
+                            </div>
+                          </div>
+                            <p class="join-date">10/14/15</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Dawn Wood</p>
+                                <p class="member-email">dawn.wood@example.com</p>
+                            </div>
+                          </div>
+                            <p class="join-date">10/14/15</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Dan Oliver</p>
+                                <p class="member-email">dan.oliver@example.com</p>
+                            </div>
+                          </div>
+                            <p class="join-date">10/13/15</p>
+                        </div>
+                    </div>
+                    <div class="activity-widget">
+                        <h1>Recent Activity</h1>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/women/64.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Victoria Chambers joined the Forum</p>
+                                <p class="member-activity">4 hours ago</p>
+                            </div>
+                          </div>
+                            <p class="activity-arrow">&#8250;</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Jerod Wood shared data on Twitter</p>
+                                <p class="member-activity">6 hours ago</p>
+                            </div>
+                          </div>
+                            <p class="activity-arrow">&#8250;</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Dawn Wood joined the Forum</p>
+                                <p class="member-activity">1 day ago</p>
+                            </div>
+                          </div>
+                            <p class="activity-arrow">&#8250;</p>
+                        </div>
+                        <div class="member">
+                          <div class="member-profile">
+                           <img src="https://randomuser.me/api/portraits/women/40.jpg" alt="Member photo">
+                            <div class="member-info">
+                                <p>Sally Jones joined the Forum</p>
+                                <p class="member-activity">2 days ago</p>
+                            </div>
+                          </div>
+                            <p class="activity-arrow">&#8250;</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="settings" class="settings-container">
+                  <div class="messages-widget">
+                    <h1>Message User</h1>
+                    <form class="message-user" action="index.html" method="post">
+                      <input id="username_select" type="text" placeholder="Username">
+                      <textarea id="username_message" placeholder="Message for User"></textarea>
+                      <div id="user-alert" class="dashboard-alert">
+                          <h2>Please select a user!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
+                      <div id="message-alert" class="dashboard-alert">
+                          <h2>Please add your message!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
+                      <div id="send-message-alert" class="dashboard-alert">
+                          <h2>Message sent!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
+                      <button id="send_message" type="submit">SEND</button>
+                    </form>
+                  </div>
+                  <div class="settings-widget">
+                    <h1>Settings</h1>
+                    <div class="user-settings">
+                        <div class="email-settings">
+                          <label class="switch-light switch-ios" onclick>
+                            <input type="checkbox">
+                            <strong>Send Email Notifications</strong>
+                            <span>
+                              <span>Off</span>
+                              <span>On</span>
+                              <a></a>
+                            </span>
+                          </label>
+                        </div>
+                        <div class="public-profile">
+                          <label class="switch-light switch-ios" onclick>
+                            <input type="checkbox">
+                            <strong>Set Profile to Public</strong>
+                            <span>
+                              <span>Off</span>
+                              <span>On</span>
+                              <a></a>
+                            </span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="user-timezone">
+                      <select name="timezone">
+                        <option value="" disabled selected>Select Timezone</option>
+                        <option value="eastern">Eastern</option>
+                        <option value="central">Central</option>
+                        <option value="mountain">Mountain</option>
+                        <option value="pacific">Pacific</option>
+                      </select>
+                    </div>
+                    <div class="settings-status">
+                      <button>SAVE</button>
+                      <button>CANCEL</button>
+                    </div>
+                  </div>
+                </div>
+            </main>
+        </div>
+        <!-- dashboard -->
+    </div>
+    <!-- container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
