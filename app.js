@@ -112,9 +112,13 @@ var mobileUsers = new Chart(ctx, {
 
 // Message User - Error Functionality //
 
+var sendMessage = document.getElementById('send_message');
+var userName = document.getElementById('username_select');
+var userValue = userName.value;
+var userMessage = document.getElementById('username_message');
+var messageValue = userMessage.value;
+
 function messageRequired() {
-    var userMessage = document.getElementById('username_message');
-    var messageValue = userMessage.value;
     if (messageValue == "") {
         userMessage.setAttribute("placeholder", "Please enter a message!");
         userMessage.style.border = "1px solid red";
