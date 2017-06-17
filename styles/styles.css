@@ -446,7 +446,7 @@ main {
 @media screen and (min-width: 1024px) {
     nav {
         width: 7.5%;
-        height: 2400px;
+        height: 2500px;
         min-width: 75px;
         max-width: 100px;
         display: block;
