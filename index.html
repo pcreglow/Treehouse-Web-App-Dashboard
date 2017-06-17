@@ -31,10 +31,10 @@
         </header>
         <div id="dashboard">
             <nav>
-                <a href="#"><img src="icons/icon-dashboard.svg" /></a>
-                <a href="#"><img src="icons/icon-members.svg" /></a>
-                <a href="#"><img src="icons/icon-visits.svg" /></a>
-                <a href="#"><img src="icons/icon-settings.svg" /></a>
+                <a href="#dashboard"><img src="icons/icon-dashboard.svg" /></a>
+                <a href="#membership"><img src="icons/icon-members.svg" /></a>
+                <a href="#daily-traffic"><img src="icons/icon-visits.svg" /></a>
+                <a href="#settings"><img src="icons/icon-settings.svg" /></a>
             </nav>
             <main>
                 <div class="dashboard-search">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="membership-container">
+                <div id="membership" class="membership-container">
                     <div class="members-widget">
                         <h1>New Members</h1>
                         <div class="member">
@@ -176,11 +176,11 @@
                     </div>
                 </div>
 
-                <div class="settings-container">
+                <div id="settings" class="settings-container">
                   <div class="messages-widget">
                     <h1>Message User</h1>
                     <form class="message-user" action="index.html" methos="post">
-                      <input id="username_select" type="text" placeholder="Search for User">
+                      <input id="username_select" type="text" placeholder="Username">
                       <textarea id="username_message" type="text" placeholder="Message for User"></textarea>
                       <div id="user-alert" class="dashboard-alert">
                           <h2>Please select a user!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
