@@ -112,24 +112,29 @@ var mobileUsers = new Chart(ctx, {
 
 // Message User - Error Functionality //
 
-// var sendMessage = document.getElementById('send_message');
-// var userName = document.getElementById('username_select');
-// var userValue = userName.value;
-// var userMessage = document.getElementById('username_message');
-// var messageValue = userMessage.value;
-// var messageAlert = document.getElementById('message-alert');
-// var sentMessage = document.getElementById('send-message-alert');
-//
-// function messageSent() {
-//   if (messageValue === "") {
-//     messageAlert.style.display = "block";
-//   } else {
-//     messageValue = "";
-//     sentMessage.style.display = "block";
-//   }
-// }
-//
-// sendMessage.addEventListener("click", function(e){
-//   e.preventDefault();
-//   messageSent();
-// });
+var sendMessage = document.getElementById('send_message');
+var userName = document.getElementById('username_select');
+var userMessage = document.getElementById('username_message');
+var userAlert = document.getElementById('user-alert');
+var messageAlert = document.getElementById('message-alert');
+var sentMessage = document.getElementById('send-message-alert');
+
+function messageSent() {
+  if (!userName.value && !userMessage.value) {
+    userAlert.style.display = "block";
+    messageAlert.style.display = "block";
+  } else if (!userName.value) {
+    userAlert.style.display = "block";
+  } else if (!userMessage.value) {
+    messageAlert.style.display = "block";
+  } else {
+    userName.value = "";
+    userMessage.value = "";
+    sentMessage.style.display = "block";
+  }
+}
+
+sendMessage.addEventListener("click", function(e){
+  e.preventDefault();
+  messageSent();
+});

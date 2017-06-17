@@ -179,16 +179,19 @@
                 <div class="settings-container">
                   <div class="messages-widget">
                     <h1>Message User</h1>
-                    <form class="message-user">
+                    <form class="message-user" action="index.html" methos="post">
                       <input id="username_select" type="text" placeholder="Search for User">
                       <textarea id="username_message" type="text" placeholder="Message for User"></textarea>
+                      <div id="user-alert" class="dashboard-alert">
+                          <h2>Please select a user!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
                       <div id="message-alert" class="dashboard-alert">
-                          <h2>Message!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                          <h2>Please add your message!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
                       </div>
                       <div id="send-message-alert" class="dashboard-alert">
                           <h2>Message sent!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
                       </div>
-                      <button id="send_message" type="button">SEND</button>
+                      <button id="send_message" type="submit">SEND</button>
                     </form>
                   </div>
                   <div class="settings-widget">

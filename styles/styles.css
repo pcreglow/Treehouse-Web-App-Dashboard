@@ -332,6 +332,7 @@ main {
   border: 1px solid #7478BA;
 }
 
+#user-alert,
 #message-alert,
 #send-message-alert {
   display: none;
