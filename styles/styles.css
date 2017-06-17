@@ -334,7 +334,31 @@ main {
 
 /* Settings */
 
+.user-settings {
+  display: block;
+  clear: both;
+  width: 95%;
+  margin: 0 2.5%;
+}
 
+.email-setings .checkbox strong,
+.switch-ios.switch-light > span {
+  display: inline-block;
+}
+
+.switch-ios.switch-light > span {
+  width: 25%;
+  margin: 0 2.5%;
+}
+
+.switch-ios.switch-light input:checked ~ span {
+    border-color: #7478BA;
+    box-shadow: inset 0 0 0 30px #7478BA;
+}
+
+.switch-ios.switch-light input:checked ~ span a {
+  border-color: #7478BA;
+}
 
 /*** TABLET - 768px ***/
 
