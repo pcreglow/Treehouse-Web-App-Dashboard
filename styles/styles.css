@@ -337,11 +337,17 @@ main {
 .user-settings {
   display: block;
   clear: both;
-  width: 95%;
-  margin: 0 2.5%;
+  width: 65%;
+  margin: 0 32.5% 0 2.5%;
+  padding-top: 5%;
+}
+
+.public-profile {
+  padding: 10% 0;
 }
 
 .email-setings .checkbox strong,
+.public-profile .checkbox strong,
 .switch-ios.switch-light > span {
   display: inline-block;
 }
@@ -349,6 +355,7 @@ main {
 .switch-ios.switch-light > span {
   width: 25%;
   margin: 0 2.5%;
+  float: right;
 }
 
 .switch-ios.switch-light input:checked ~ span {
