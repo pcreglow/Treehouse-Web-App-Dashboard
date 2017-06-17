@@ -332,6 +332,11 @@ main {
   border: 1px solid #7478BA;
 }
 
+#message-alert,
+#send-message-alert {
+  display: none;
+}
+
 /* Settings */
 
 .user-settings {

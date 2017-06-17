@@ -182,7 +182,13 @@
                     <form class="message-user">
                       <input id="username_select" type="text" placeholder="Search for User">
                       <textarea id="username_message" type="text" placeholder="Message for User"></textarea>
-                      <button id="send_message">SEND</button>
+                      <div id="message-alert" class="dashboard-alert">
+                          <h2>Message!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
+                      <div id="send-message-alert" class="dashboard-alert">
+                          <h2>Message sent!<span class="close-alert" onclick="this.parentElement.parentElement.style.display='none';">X</span></h2>
+                      </div>
+                      <button id="send_message" type="button">SEND</button>
                     </form>
                   </div>
                   <div class="settings-widget">

@@ -112,20 +112,24 @@ var mobileUsers = new Chart(ctx, {
 
 // Message User - Error Functionality //
 
-var sendMessage = document.getElementById('send_message');
-var userName = document.getElementById('username_select');
-var userValue = userName.value;
-var userMessage = document.getElementById('username_message');
-var messageValue = userMessage.value;
-
-function messageRequired() {
-    if (messageValue == "") {
-        userMessage.setAttribute("placeholder", "Please enter a message!");
-        userMessage.style.border = "1px solid red";
-  }
-  userMessage.onclick = function() {
-    userMessage.style.border = "3px solid #7478BA";
-  }
- }
-
- messageRequired();
+// var sendMessage = document.getElementById('send_message');
+// var userName = document.getElementById('username_select');
+// var userValue = userName.value;
+// var userMessage = document.getElementById('username_message');
+// var messageValue = userMessage.value;
+// var messageAlert = document.getElementById('message-alert');
+// var sentMessage = document.getElementById('send-message-alert');
+//
+// function messageSent() {
+//   if (messageValue === "") {
+//     messageAlert.style.display = "block";
+//   } else {
+//     messageValue = "";
+//     sentMessage.style.display = "block";
+//   }
+// }
+//
+// sendMessage.addEventListener("click", function(e){
+//   e.preventDefault();
+//   messageSent();
+// });
