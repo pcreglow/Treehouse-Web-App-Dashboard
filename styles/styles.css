@@ -368,10 +368,36 @@ main {
 }
 
 .user-timezone select {
-  margin: 0 2.5%;
+  margin: 0 2.5% 5%;
   width: 95%;
   font-size: 20px;
   color: #8E8E8E;
+}
+
+.settings-status {
+  margin: 0 2.5%;
+  width: 95%;
+}
+
+.settings-status button {
+  padding: 2.5%;
+  margin: 5% 0;
+  width: 46%;
+  font-size: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.settings-status button:first-child {
+  background: #7478BA;
+  border: 1px solid #7478BA;
+}
+
+.settings-status button:last-child {
+  margin-left: 6.5%;
+  background: #8E8E8E;
+  border: 1px solid #8E8E8E;
 }
 
 /*** TABLET - 768px ***/
