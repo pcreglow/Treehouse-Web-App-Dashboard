@@ -109,3 +109,19 @@ var mobileUsers = new Chart(ctx, {
         }
     }
 });
+
+// Message User - Error Functionality //
+
+function messageRequired() {
+    var userMessage = document.getElementById('username_message');
+    var messageValue = userMessage.value;
+    if (messageValue == "") {
+        userMessage.setAttribute("placeholder", "Please enter a message!");
+        userMessage.style.border = "1px solid red";
+  }
+  userMessage.onclick = function() {
+    userMessage.style.border = "3px solid #7478BA";
+  }
+ }
+
+ messageRequired();
