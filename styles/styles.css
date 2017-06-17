@@ -338,6 +338,15 @@ main {
   display: none;
 }
 
+#user-alert,
+#message-alert {
+  background: #ff8080;
+}
+
+#send-message-alert {
+  background: #91C694;
+}
+
 /* Settings */
 
 .user-settings {

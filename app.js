@@ -130,6 +130,8 @@ function messageSent() {
   } else {
     userName.value = "";
     userMessage.value = "";
+    userAlert.style.display = "none";
+    messageAlert.style.display = "none";
     sentMessage.style.display = "block";
   }
 }
